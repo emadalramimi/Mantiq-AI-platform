@@ -1,0 +1,55 @@
+{
+  "name": "sales-ai-platform",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.15.5",
+    "@mui/material": "^5.15.5",
+    "@nivo/bar": "^0.84.0",
+    "@nivo/core": "^0.84.0",
+    "@nivo/line": "^0.84.0",
+    "@nivo/pie": "^0.84.0",
+    "@nivo/funnel": "^0.84.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.21.3",
+    "react-scripts": "5.0.1",
+    "react-spring": "^9.7.3",
+    "react-transition-group": "^4.4.5",
+    "recharts": "^2.10.4",
+    "framer-motion": "^10.18.0",
+    "react-beautiful-dnd": "^13.1.1",
+    "date-fns": "^3.2.0",
+    "uuid": "^9.0.1",
+    "web-vitals": "^3.5.1",
+    "styled-components": "^6.1.8"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "netlify deploy -p"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
